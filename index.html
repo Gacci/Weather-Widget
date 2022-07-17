@@ -1,0 +1,83 @@
+<div class="weather">
+	<div class="weather-main">
+		<h3 class="weather-main-location">San Francisco</h3>
+		<h3 class="weather-main-date">Thu 8.20</h3>
+		<div class="weather-main-row">
+			<img class="weather-main-icon" />
+			<h1 class="weather-main-temp">0</h1>
+			<div class="weather-main-units">
+				<span class="weather-main-fahrenheit">F</span>
+				<span class="weather-main-celsius">C</span>
+			</div>
+		</div>
+		<h3 class="weather-main-desc"></h3>
+		<small class="weather-main-updated">Updated as of 8:54PM</small>
+		<ul class="weather-main-xinfo">
+			<li class="weather-main-feels">
+				Feels like 0
+			</li>
+			<li class="weather-main-wind">
+				Wind 9 mph
+			</li>
+			<li class="weather-main-humidity">
+				Humidity
+			</li>
+		</ul>
+	</div>
+	<ul class="weather-data">
+		<li class="weather-temp">
+			<h4 class="weather-date">Mon</h4>
+			<img class="weather-date-icon" src="" />
+			<div class="weather-date-min-max">
+				<span class="weather-date-max">0</span>
+				<span class="weather-date-min">0</span>
+			</div>
+			<small class="weather-date-desc"></small>
+		</li>
+		<li class="weather-temp">
+			<h4 class="weather-date">Tue</h4>
+			<img class="weather-date-icon" src="" />
+			<div class="weather-date-min-max">
+				<span class="weather-date-max">0</span>
+				<span class="weather-date-min">0</span>
+			</div>
+			<small class="weather-date-desc"></small>
+		</li>
+		<li class="weather-temp">
+			<h4 class="weather-date">Wed</h4>
+			<img class="weather-date-icon" src="" />
+			<div class="weather-date-min-max">
+				<span class="weather-date-max">0</span>
+				<span class="weather-date-min">0</span>
+			</div>
+			<small class="weather-date-desc"></small>
+		</li>
+		<li class="weather-temp">
+			<h4 class="weather-date">Thu</h4>
+			<img class="weather-date-icon" src="" />
+			<div class="weather-date-min-max">
+				<span class="weather-date-max">0</span>
+				<span class="weather-date-min">0</span>
+			</div>
+			<small class="weather-date-desc"></small>
+		</li>
+		<li class="weather-temp">
+			<h4 class="weather-date">Fri</h4>
+			<img class="weather-date-icon" src="" />
+			<div class="weather-date-min-max">
+				<span class="weather-date-max">0</span>
+				<span class="weather-date-min">0</span>
+			</div>
+			<small class="weather-date-desc"></small>
+		</li>
+	</ul>
+</div>
+
+<link type="text/css" rel="stylesheet" href="weather.css">
+<script type="text/javascript" src="weather.js"></script>
+<script type="text/javascript">
+new Weather(document.querySelector('.weather'), {
+	key: 'bbc80961ffcb9940a5200708459dcb9d',
+	units: 'imperial' // metric | imperial
+});
+</script>

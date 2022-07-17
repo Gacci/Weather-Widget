@@ -1,0 +1,121 @@
+.weather{
+	width: 440px;
+	padding: 26px;
+	background-color: #ffffff;
+	
+	-webkit-box-shadow: 0 0 4px 4px #f0f0f0;
+	   -moz-box-shadow: 0 0 4px 4px #f0f0f0;
+			box-shadow: 0 0 4px 4px #f0f0f0;
+	
+	-webkit-border-radius: 6px;
+	   -moz-border-radius: 6px;
+			border-radius: 6px;
+}
+.weather *{
+	font-family: Arial;
+	font-weight: 400;
+}
+.weather-main{
+	text-align: center;
+	margin-bottom: 36px;
+}
+.weather-main-icon{
+	width: 140px;
+	height: 140px;
+	
+	transform: translate(1.25, 1.25);
+}
+.weather-main-fahrenheit,
+.weather-main-celsius{
+	display: block;
+	font-weight: bold;
+	font-size: 18px;
+}
+.weather-main-icon,
+.weather-main-data,
+.weather-main-temp,
+.weather-main-units,
+.weather-temp,
+.weather-date-min,
+.weather-date-max{
+	display: inline-block;
+	vertical-align: middle;
+}
+.weather-date,
+.weather-main-date,
+.weather-temp,
+.weather-date-min-max{
+	margin: 0;
+}
+.weather-main-location{
+	margin: 0 0 4px 0;
+}
+.weather-main-temp{
+	font-size: 60px;
+	margin: 12px 0;
+}
+.weather-main-xinfo,
+.weather-data{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.weather-main-xinfo li{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 12px;
+	margin-left: 10px;
+}
+.weather-date-desc{
+	display: block;
+}
+.weather-date,
+.weather-date-desc{
+	font-size: 12px;
+}
+.weather-temp{
+	width: calc(20% - 4px);
+	text-align: left;
+}
+.weather-min-max{
+	font-size: 20px;
+	margin: 0 0 14px 0;
+}
+.weather-date-icon{
+	width: 36px;
+	height: 36px;
+	display: block;
+	margin: 8px 0;
+	
+	transform: scale(1.5, 1.5) translateX(-4px);
+}
+.weather-main-updated,
+.weather-date-min{
+	font-size: 12px;
+	opacity: 0.6;
+}
+.weather-date-min{
+	margin-left: 2px;
+}
+.weather-date-max{
+	font-size: 18px;
+	margin-right: 2px;
+}
+.weather-date-min:after,
+.weather-date-max:after,
+.weather-main-temp:after,
+.weather-main-feels:after,
+.weather-main-humidity:after{
+	display: inline-block;
+	vertical-align: top;
+	font-size: inherit;
+}
+.weather-date-min:after,
+.weather-date-max:after,
+.weather-main-temp:after,
+.weather-main-feels:after{
+	content: '\00B0';
+}
+.weather-main-humidity:after{
+	content: '\0025';
+}
