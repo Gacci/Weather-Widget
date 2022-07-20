@@ -1,4 +1,5 @@
-
+<div class="weather"></div>
+<!--
 <div class="weather">
 	<div class="weather-main">
 		<h3 class="weather-main-location">San Francisco</h3>
@@ -73,7 +74,7 @@
 		</li>
 	</ul>
 </div>
-
+-->
 
 
 <link type="text/css" rel="stylesheet" href="css/weather.css">

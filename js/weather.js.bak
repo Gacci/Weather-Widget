@@ -340,6 +340,7 @@
 		};
 			
 		let raw = localStorage.getItem(url);
+		console.log(raw);
 		if ( !isDataCurrent(raw) ) {	
 			
 			ajax('get', url, {

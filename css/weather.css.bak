@@ -16,7 +16,6 @@
 	font-family: Arial;
 	font-weight: 400;
 }
-.weather-loading-box,
 .weather-error-box{
 	width: 100%;
 	height: 100%;
@@ -28,7 +27,6 @@
 	background: #fff;
 	z-index: 99;
 }
-.weather-loading-message,
 .weather-error-message{
 	position: absolute;
 	top: 50%;
